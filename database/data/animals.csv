@@ -1,0 +1,105 @@
+slug,common_name,scientific_name,taxon_class,domain,diet,apex,status,mass_kg,length_m,top_speed_kmh,bite_force_n,lift_ratio,lifespan_years,encephalization_quotient,vision_score,hearing_score,smell_score,armour_score,hide_score,weaponry_score,venom_score,camouflage_score,agility_score,intelligence_score
+african-lion,Lion,Panthera leo,Mammalia,land,carnivore,1,VU,126~190,1.4~2.5,80,4500,,12~16,,8,8,7,3,4,9,0,6,6,6
+tiger,Tiger,Panthera tigris,Mammalia,land,carnivore,1,EN,90~300,1.4~2.8,65,4500,,10~15,,8,8,6,3,4,9,0,8,7,6
+leopard,Leopard,Panthera pardus,Mammalia,land,carnivore,1,VU,30~90,0.9~1.9,58,1700,,12~17,,8,8,6,2,3,8,0,9,8,6
+jaguar,Jaguar,Panthera onca,Mammalia,land,carnivore,1,NT,56~96,1.1~1.85,80,6700,,12~15,,8,7,6,3,3,9,0,8,7,6
+cheetah,Cheetah,Acinonyx jubatus,Mammalia,land,carnivore,0,VU,21~72,1.1~1.5,93~104,1000,,10~12,,9,7,5,1,2,6,0,6,9,5
+snow-leopard,Snow leopard,Panthera uncia,Mammalia,land,carnivore,1,VU,22~55,0.75~1.3,64,,,15~18,,8,7,6,3,4,7,0,9,9,6
+grey-wolf,Grey wolf,Canis lupus,Mammalia,land,carnivore,1,LC,30~80,1.0~1.6,60~65,1500,,6~8,,7,9,9,2,4,6,0,5,6,7
+brown-bear,Brown bear,Ursus arctos,Mammalia,land,omnivore,1,LC,130~550,1.5~2.8,56,5300,,20~30,,5,8,10,2,8,8,0,3,4,7
+polar-bear,Polar bear,Ursus maritimus,Mammalia,amphibious,carnivore,1,VU,150~700,1.8~3.0,40,4500,,15~25,,6,7,10,2,9,8,0,8,4,7
+african-bush-elephant,African bush elephant,Loxodonta africana,Mammalia,land,herbivore,0,EN,2700~6000,6.0~7.5,40,,,60~70,1.3~2.3,4,9,10,3,9,8,0,1,2,9
+hippopotamus,Hippopotamus,Hippopotamus amphibius,Mammalia,amphibious,herbivore,0,VU,1300~3200,3.0~5.0,30,8100,,40~50,,5,7,6,3,9,8,0,3,2,5
+white-rhinoceros,White rhinoceros,Ceratotherium simum,Mammalia,land,herbivore,0,NT,1600~3600,3.4~4.2,50,,,40~50,,2,8,9,5,9,8,0,1,2,4
+western-gorilla,Western gorilla,Gorilla gorilla,Mammalia,land,herbivore,0,CR,70~200,1.4~1.8,32,5800,,35~40,1.5~1.8,7,6,6,4,4,6,0,3,5,9
+chimpanzee,Chimpanzee,Pan troglodytes,Mammalia,land,omnivore,0,EN,40~70,0.6~0.95,40,1300,,33~40,2.2~2.5,7,6,5,2,2,5,0,4,8,9
+orca,Orca,Orcinus orca,Mammalia,water,carnivore,1,DD,3600~6000,6.0~8.0,56,,,30~50,2.6,7,10,2,1,8,9,0,4,6,9
+blue-whale,Blue whale,Balaenoptera musculus,Mammalia,water,filter_feeder,0,EN,50000~150000,24~30,30,,,80~90,,3,10,2,1,9,0,0,1,1,6
+bottlenose-dolphin,Common bottlenose dolphin,Tursiops truncatus,Mammalia,water,piscivore,0,LC,150~650,2.0~4.0,35,,,40,4.1~5.3,7,10,1,2,6,4,0,3,9,10
+honey-badger,Honey badger,Mellivora capensis,Mammalia,land,omnivore,0,LC,9~16,0.55~0.77,30,,,7~8,,5,7,8,4,9,7,0,4,6,8
+wolverine,Wolverine,Gulo gulo,Mammalia,land,carnivore,0,LC,9~25,0.65~1.07,48,,,7~12,,4,7,9,4,6,7,0,5,6,6
+spotted-hyena,Spotted hyena,Crocuta crocuta,Mammalia,land,carnivore,1,LC,40~86,0.95~1.65,60,4500,,12~20,,7,9,9,3,4,8,0,4,5,7
+red-fox,Red fox,Vulpes vulpes,Mammalia,land,omnivore,0,LC,3.5~7.5,0.45~0.9,50,,,2~5,,7,10,8,1,2,4,0,6,8,7
+giraffe,Giraffe,Giraffa camelopardalis,Mammalia,land,herbivore,0,VU,800~1930,4.3~5.7,60,,,25,,9,7,6,2,6,6,0,4,3,5
+african-buffalo,African buffalo,Syncerus caffer,Mammalia,land,herbivore,0,NT,425~900,2.1~3.4,57,,,18~20,,5,6,8,5,7,8,0,2,4,5
+moose,Moose,Alces alces,Mammalia,land,herbivore,0,LC,380~700,2.4~3.1,56,,,15~25,,4,8,8,3,6,7,0,3,4,4
+red-kangaroo,Red kangaroo,Osphranter rufus,Mammalia,land,herbivore,0,LC,18~90,1.0~1.6,56~70,,,8~12,,7,8,6,3,2,6,0,3,7,4
+platypus,Platypus,Ornithorhynchus anatinus,Mammalia,amphibious,carnivore,0,NT,0.7~2.4,0.4~0.5,3.6,,,13~17,,3,3,7,1,3,4,5,5,5,4
+common-vampire-bat,Common vampire bat,Desmodus rotundus,Mammalia,air,carnivore,0,LC,0.025~0.04,0.07~0.09,18,,,9~20,,4,9,7,1,1,3,2,6,8,6
+brown-throated-sloth,Brown-throated sloth,Bradypus variegatus,Mammalia,land,herbivore,0,LC,2.2~6.3,0.42~0.8,0.24,,,20~30,,2,3,5,3,4,4,0,9,1,3
+ground-pangolin,Ground pangolin,Smutsia temminckii,Mammalia,land,insectivore,0,VU,7~18,0.5~0.8,5,,,10~20,,2,5,9,9,2,3,0,5,2,4
+nine-banded-armadillo,Nine-banded armadillo,Dasypus novemcinctus,Mammalia,land,insectivore,0,LC,2.5~6.5,0.38~0.58,30,,,12~15,,2,5,8,8,2,3,0,4,4,3
+striped-skunk,Striped skunk,Mephitis mephitis,Mammalia,land,omnivore,0,LC,1.2~5.3,0.5~0.8,16,,,3~7,,3,6,7,2,3,2,6,4,4,5
+raccoon,Raccoon,Procyon lotor,Mammalia,land,omnivore,0,LC,3.5~9,0.4~0.7,24,,,2~5,,5,8,7,2,3,3,0,6,7,8
+tasmanian-devil,Tasmanian devil,Sarcophilus harrisii,Mammalia,land,carnivore,1,EN,4~14,0.57~0.65,13,550,,5~6,,5,7,8,3,3,7,0,5,5,5
+walrus,Walrus,Odobenus rosmarus,Mammalia,water,carnivore,0,VU,800~1700,2.2~3.6,7~35,,,30~40,,3,6,7,3,10,7,0,2,3,6
+sea-otter,Sea otter,Enhydra lutris,Mammalia,water,carnivore,0,EN,14~45,1.0~1.5,9,,,10~20,,6,6,7,2,5,3,0,4,7,8
+pronghorn,Pronghorn,Antilocapra americana,Mammalia,land,herbivore,0,LC,40~65,1.3~1.5,88,,,10~15,,10,7,6,2,2,4,0,3,8,4
+peregrine-falcon,Peregrine falcon,Falco peregrinus,Aves,air,carnivore,0,LC,0.33~1.5,0.34~0.58,320~389,,,12~17,,10,6,1,1,1,7,0,5,10,6
+golden-eagle,Golden eagle,Aquila chrysaetos,Aves,air,carnivore,1,LC,3~6.7,0.66~1.02,240~320,,,20~30,,10,6,1,1,2,8,0,4,8,6
+harpy-eagle,Harpy eagle,Harpia harpyja,Aves,air,carnivore,1,VU,4~9,0.86~1.07,80,,,25~35,,10,8,1,1,2,10,0,6,8,6
+great-horned-owl,Great horned owl,Bubo virginianus,Aves,air,carnivore,0,LC,0.9~2.5,0.46~0.63,65,,,10~15,,9,10,1,1,2,7,0,8,7,5
+barn-owl,Barn owl,Tyto alba,Aves,air,carnivore,0,LC,0.22~0.71,0.33~0.39,30,,,2~4,,8,10,1,1,1,5,0,8,7,5
+common-ostrich,Common ostrich,Struthio camelus,Aves,land,omnivore,0,LC,63~145,2.1~2.8,70,,,30~40,,9,6,4,3,3,7,0,2,5,3
+southern-cassowary,Southern cassowary,Casuarius casuarius,Aves,land,herbivore,0,LC,29~58,1.5~1.8,50,,,40,,7,6,4,5,4,8,0,4,6,4
+emperor-penguin,Emperor penguin,Aptenodytes forsteri,Aves,water,piscivore,0,NT,22~45,1.0~1.3,6~9,,,15~20,,7,5,3,3,7,2,0,3,6,4
+common-raven,Common raven,Corvus corax,Aves,air,omnivore,0,LC,0.69~2,0.54~0.69,60,,,10~15,,8,7,3,1,1,4,0,3,8,10
+african-grey-parrot,Grey parrot,Psittacus erithacus,Aves,air,herbivore,0,EN,0.4~0.5,0.33,55,,,40~60,,8,7,2,1,1,4,0,4,6,10
+ruby-throated-hummingbird,Ruby-throated hummingbird,Archilochus colubris,Aves,air,herbivore,0,LC,0.002~0.006,0.07~0.09,50,,,3~5,,8,5,1,1,0,1,0,3,10,5
+wandering-albatross,Wandering albatross,Diomedea exulans,Aves,air,piscivore,0,VU,6~12,1.07~1.35,80,,,50~60,,8,5,8,1,3,4,0,2,5,4
+secretary-bird,Secretarybird,Sagittarius serpentarius,Aves,land,carnivore,0,EN,2.3~4.3,1.1~1.5,30,,,10~15,,9,6,1,2,1,8,0,3,8,5
+shoebill,Shoebill,Balaeniceps rex,Aves,air,piscivore,0,VU,4~7,1.1~1.4,30,,,35,,8,5,1,1,2,7,0,6,3,4
+common-swift,Common swift,Apus apus,Aves,air,insectivore,0,LC,0.036~0.05,0.16~0.17,110,,,5~9,,8,5,1,1,0,1,0,2,9,4
+andean-condor,Andean condor,Vultur gryphus,Aves,air,scavenger,0,VU,8~15,1.0~1.3,55,,,50,,10,5,2,1,2,5,0,2,3,5
+saltwater-crocodile,Saltwater crocodile,Crocodylus porosus,Reptilia,amphibious,carnivore,1,LC,400~1000,4.0~6.0,15~29,16400,,70,,7,7,7,8,6,10,0,8,4,4
+nile-crocodile,Nile crocodile,Crocodylus niloticus,Reptilia,amphibious,carnivore,1,LC,225~750,3.5~5.0,14~30,22000,,70,,7,7,7,8,6,10,0,8,4,4
+komodo-dragon,Komodo dragon,Varanus komodoensis,Reptilia,land,carnivore,1,EN,70~90,2.0~3.0,20,,,30,,6,4,9,6,6,8,6,5,4,4
+king-cobra,King cobra,Ophiophagus hannah,Reptilia,land,carnivore,0,VU,6~9,3.0~4.0,19,,,20,,7,2,8,3,2,6,9,6,6,5
+black-mamba,Black mamba,Dendroaspis polylepis,Reptilia,land,carnivore,0,LC,1~1.6,2.0~3.0,16~20,,,11,,7,2,8,2,1,5,10,5,8,4
+green-anaconda,Green anaconda,Eunectes murinus,Reptilia,amphibious,carnivore,1,LC,30~70,4.0~6.0,8~16,,,10,,5,2,8,4,4,6,0,9,4,3
+reticulated-python,Reticulated python,Malayopython reticulatus,Reptilia,land,carnivore,0,LC,20~75,3.0~6.25,1.6,,,20~25,,5,2,8,4,4,6,0,9,3,3
+inland-taipan,Inland taipan,Oxyuranus microlepidotus,Reptilia,land,carnivore,0,LC,0.8~1.5,1.8~2.5,10,,,10~15,,7,2,8,2,1,4,10,6,6,3
+galapagos-tortoise,Galapagos giant tortoise,Chelonoidis niger,Reptilia,land,herbivore,0,VU,150~400,1.0~1.5,0.3,,,100~150,,5,3,5,10,4,2,0,3,1,3
+leatherback-sea-turtle,Leatherback sea turtle,Dermochelys coriacea,Reptilia,water,carnivore,0,VU,250~700,1.6~2.2,35,,,45,,6,4,6,3,8,2,0,3,4,3
+alligator-snapping-turtle,Alligator snapping turtle,Macrochelys temminckii,Reptilia,water,carnivore,0,VU,20~80,0.4~0.8,1,1000,,50~70,,4,3,6,9,3,8,0,9,2,3
+panther-chameleon,Panther chameleon,Furcifer pardalis,Reptilia,land,insectivore,0,LC,0.06~0.18,0.3~0.5,1,,,5,,10,2,3,1,1,2,0,10,3,3
+gila-monster,Gila monster,Heloderma suspectum,Reptilia,land,carnivore,0,NT,1.35~2.3,0.36~0.56,2.4,,,20,,4,3,8,6,4,5,7,6,2,3
+golden-poison-frog,Golden poison frog,Phyllobates terribilis,Amphibia,land,insectivore,0,EN,0.001~0.003,0.045~0.055,1,,,5~10,,6,5,3,1,0,0,10,1,5,3
+axolotl,Axolotl,Ambystoma mexicanum,Amphibia,water,carnivore,0,CR,0.06~0.23,0.15~0.3,1,,,10~15,,3,3,6,1,1,1,0,5,3,3
+chinese-giant-salamander,Chinese giant salamander,Andrias davidianus,Amphibia,water,carnivore,0,CR,25~50,1.0~1.8,2,,,60,,2,4,7,2,4,5,0,8,2,3
+cane-toad,Cane toad,Rhinella marina,Amphibia,land,omnivore,0,LC,0.1~1,0.1~0.15,2,,,10~15,,5,5,4,3,3,1,7,5,2,3
+great-white-shark,Great white shark,Carcharodon carcharias,Chondrichthyes,water,carnivore,1,VU,680~1100,3.4~6.0,40~56,18000,,70,,7,8,10,5,6,10,0,5,6,5
+tiger-shark,Tiger shark,Galeocerdo cuvier,Chondrichthyes,water,carnivore,1,NT,385~635,3.25~4.25,32,,,30~50,,7,8,10,5,6,9,0,6,5,4
+great-hammerhead,Great hammerhead,Sphyrna mokarran,Chondrichthyes,water,carnivore,1,CR,230~450,3.5~6.0,40,,,30,,8,8,10,5,5,8,0,4,7,4
+whale-shark,Whale shark,Rhincodon typus,Chondrichthyes,water,filter_feeder,0,EN,15000~19000,12~18,5,,,70~100,,4,7,8,3,10,0,0,3,2,3
+giant-manta-ray,Giant oceanic manta ray,Mobula birostris,Chondrichthyes,water,filter_feeder,0,EN,1350~3000,4.5~7.0,24,,,40,,6,6,5,3,4,0,0,3,6,7
+sailfish,Indo-Pacific sailfish,Istiophorus platypterus,Actinopterygii,water,piscivore,0,LC,50~100,2.7~3.4,36~110,,,13~15,,8,7,6,3,2,7,0,6,9,4
+atlantic-bluefin-tuna,Atlantic bluefin tuna,Thunnus thynnus,Actinopterygii,water,piscivore,0,LC,225~680,2.0~3.0,70,,,40,,8,6,6,3,4,4,0,5,8,4
+red-bellied-piranha,Red-bellied piranha,Pygocentrus nattereri,Actinopterygii,water,omnivore,0,NE,0.5~3.5,0.2~0.33,25,,,10,,6,8,9,2,1,8,0,4,7,3
+electric-eel,Electric eel,Electrophorus electricus,Actinopterygii,water,carnivore,0,LC,10~20,2.0~2.5,3,,,15,,2,5,7,2,2,8,0,6,3,3
+reef-stonefish,Reef stonefish,Synanceia verrucosa,Actinopterygii,water,carnivore,0,LC,0.5~2.4,0.3~0.4,1,,,5~10,,6,4,5,5,3,5,10,10,3,3
+ocean-sunfish,Ocean sunfish,Mola mola,Actinopterygii,water,carnivore,0,VU,247~1000,1.8~3.3,3,,,10,,6,4,4,3,8,0,0,2,2,2
+alligator-gar,Alligator gar,Atractosteus spatula,Actinopterygii,water,carnivore,1,LC,45~137,1.8~3.0,20,,,50,,6,5,6,9,2,7,0,7,4,3
+bullet-ant,Bullet ant,Paraponera clavata,Insecta,land,omnivore,0,NE,0.00005~0.0001,0.018~0.03,0.3,,10~50,0.25~1,,4,3,8,5,0,5,8,3,4,3
+asian-giant-hornet,Northern giant hornet,Vespa mandarinia,Insecta,air,carnivore,0,NE,0.0005~0.002,0.035~0.05,40,,,0.2~1,,6,3,7,5,0,7,8,2,8,3
+chinese-mantis,Chinese mantis,Tenodera sinensis,Insecta,land,carnivore,0,NE,0.001~0.003,0.07~0.11,1,,,0.5~1,,9,2,3,3,0,7,0,8,8,3
+hercules-beetle,Hercules beetle,Dynastes hercules,Insecta,land,herbivore,0,NE,0.01~0.03,0.05~0.17,1,,100~850,1~2,,3,2,6,9,0,6,0,4,3,2
+emperor-dragonfly,Emperor dragonfly,Anax imperator,Insecta,air,carnivore,0,LC,0.0008~0.001,0.066~0.084,30~54,,,1~2,,10,2,2,3,0,5,0,4,10,3
+desert-locust,Desert locust,Schistocerca gregaria,Insecta,air,herbivore,0,NE,0.002~0.003,0.06~0.08,16~19,,,0.25~0.5,,6,4,5,3,0,2,0,6,6,2
+monarch-butterfly,Monarch butterfly,Danaus plexippus,Insecta,air,herbivore,0,VU,0.0005,0.09~0.1,10~30,,,0.02~0.7,,7,2,7,1,0,0,5,1,5,2
+western-honey-bee,Western honey bee,Apis mellifera,Insecta,air,herbivore,0,DD,0.0001,0.012~0.015,24,,,0.1~0.5,,7,3,9,3,0,3,6,2,7,6
+bombardier-beetle,Bombardier beetle,Brachinus crepitans,Insecta,land,carnivore,0,NE,0.00005~0.0001,0.006~0.01,0.5,,,1,,4,2,6,6,0,2,7,4,4,2
+giant-weta,Little Barrier giant weta,Deinacrida heteracantha,Insecta,land,herbivore,0,NE,0.035~0.07,0.075~0.1,0.5,,,1~2,,3,4,5,5,1,3,0,6,3,2
+orchid-mantis,Orchid mantis,Hymenopus coronatus,Insecta,land,carnivore,0,NE,0.0005~0.001,0.025~0.06,1,,,0.5~0.7,,9,2,3,2,0,6,0,10,7,3
+cat-flea,Cat flea,Ctenocephalides felis,Insecta,land,carnivore,0,NE,0.0000005,0.001~0.003,0.5,,,0.1~0.3,,2,2,5,7,0,2,0,5,9,1
+goliath-birdeater,Goliath birdeater,Theraphosa blondi,Arachnida,land,carnivore,0,NE,0.1~0.175,0.1~0.13,1,,,15~25,,2,3,6,3,1,6,3,5,3,2
+southern-black-widow,Southern black widow,Latrodectus mactans,Arachnida,land,carnivore,0,NE,0.0005~0.001,0.008~0.013,0.5,,,1~3,,3,3,4,2,0,3,8,6,4,2
+deathstalker-scorpion,Deathstalker scorpion,Leiurus quinquestriatus,Arachnida,land,carnivore,0,NE,0.001~0.003,0.03~0.08,1,,,4~6,,3,3,5,6,0,6,9,5,5,2
+regal-jumping-spider,Regal jumping spider,Phidippus regius,Arachnida,land,carnivore,0,NE,0.0001~0.0005,0.01~0.022,1,,,1~2,,10,3,3,2,0,3,2,5,10,6
+sydney-funnel-web-spider,Sydney funnel-web spider,Atrax robustus,Arachnida,land,carnivore,0,NE,0.001~0.003,0.015~0.035,1,,,10~20,,2,3,5,3,0,6,10,5,5,2
+giant-pacific-octopus,Giant Pacific octopus,Enteroctopus dofleini,Cephalopoda,water,carnivore,0,LC,10~50,3.0~5.0,40,,,3~5,,8,3,7,1,2,6,3,10,8,9
+blue-ringed-octopus,Greater blue-ringed octopus,Hapalochlaena lunulata,Cephalopoda,water,carnivore,0,NE,0.01~0.1,0.12~0.2,3,,,1~2,,7,2,6,1,1,3,10,9,6,7
+peacock-mantis-shrimp,Peacock mantis shrimp,Odontodactylus scyllarus,Malacostraca,water,carnivore,0,NE,0.005~0.03,0.03~0.18,1,1500,,3~6,,10,3,5,7,0,10,0,4,7,4
+coconut-crab,Coconut crab,Birgus latro,Malacostraca,land,omnivore,0,VU,2~4.1,0.4,1,3300,,60,,4,3,9,8,0,8,0,3,2,4
+box-jellyfish,Australian box jellyfish,Chironex fleckeri,Cubozoa,water,carnivore,0,NE,1~2,0.2~0.3,7,,,0.5~1,,6,1,2,1,0,3,10,9,4,1
+amazonian-giant-centipede,Amazonian giant centipede,Scolopendra gigantea,Chilopoda,land,carnivore,0,NE,0.03~0.1,0.26~0.3,1.5,,,10,,2,3,7,5,0,7,7,5,7,2

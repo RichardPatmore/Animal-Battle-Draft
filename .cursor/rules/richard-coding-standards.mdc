@@ -1,0 +1,31 @@
+---
+description: Richard Patmore coding standards — tabs, PHPDoc, and author attribution
+alwaysApply: true
+---
+
+# Coding standards (Richard Patmore)
+
+## Indentation
+
+- Use **literal tab characters** (`\t`) for every indent level. **Never spaces** for indentation in PHP, TypeScript, JavaScript, Blade, and CSS.
+- **PHP:** All `app/`, `routes/`, `database/`, `tests/`, and `config/` PHP you create or edit must use tabs. If a file uses space indents (often from Pint’s Laravel preset), **convert the lines you change** to tabs before finishing — do not leave mixed space/tab indentation in touched files.
+- **Front-end:** Same tab rule for `resources/js/`, `resources/css/`, and Blade under `resources/views/`.
+- Follow `.editorconfig` (`indent_style = tab`). `package.json` and YAML are the exceptions (spaces per `.editorconfig`).
+- **`pint.json` sets `"indentation_type": false`**, so Pint will **not** fix indentation for you. Do not assume running Pint normalizes tabs; write tabs in the editor.
+
+## Documentation
+
+- Add descriptive PHPDoc to classes, enums, and public methods you create or change.
+- Class-level docblocks must include: `@author Richard Patmore <72patmore.r@gmail.com>`.
+- Use `@param`, `@return`, and `@throws` when they clarify non-obvious behaviour.
+
+## Git
+
+- Primary branch: **`master`**.
+- Remote: not configured yet.
+
+## Scope
+
+- Do not reformat unrelated files or rewrite the entire Laravel starter kit unless asked.
+- Apply these rules to new and touched code paths first.
+- When the user asks to fix formatting repo-wide, run Pint only after aligning `pint.json` / tooling with tab indentation.

@@ -1,0 +1,225 @@
+@import 'tailwindcss';
+
+@import 'tw-animate-css';
+
+@config '../../tailwind.config.js';
+
+@source '../views';
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+	--font-sans:
+		'Dosis', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+	--font-heading:
+		'Lexend', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+		'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+	--color-wild-sand: #f7efe1;
+	--color-wild-amber: #e8891c;
+	--color-wild-rust: #b54a1f;
+	--color-wild-moss: #4f7a3a;
+	--color-wild-jungle: #1f4d3a;
+	--color-wild-night: #0e1a14;
+
+	--color-iucn-ex: #000000;
+	--color-iucn-ew: #3d1f4f;
+	--color-iucn-cr: #d81e05;
+	--color-iucn-en: #fc7f3f;
+	--color-iucn-vu: #f9e814;
+	--color-iucn-nt: #cce226;
+	--color-iucn-lc: #60c659;
+	--color-iucn-dd: #d1d1c6;
+
+	--radius-lg: var(--radius);
+	--radius-md: calc(var(--radius) - 2px);
+	--radius-sm: calc(var(--radius) - 4px);
+
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+
+	--color-card: var(--card);
+	--color-card-foreground: var(--card-foreground);
+
+	--color-popover: var(--popover);
+	--color-popover-foreground: var(--popover-foreground);
+
+	--color-primary: var(--primary);
+	--color-primary-foreground: var(--primary-foreground);
+
+	--color-secondary: var(--secondary);
+	--color-secondary-foreground: var(--secondary-foreground);
+
+	--color-muted: var(--muted);
+	--color-muted-foreground: var(--muted-foreground);
+
+	--color-accent: var(--accent);
+	--color-accent-foreground: var(--accent-foreground);
+
+	--color-destructive: var(--destructive);
+	--color-destructive-foreground: var(--destructive-foreground);
+
+	--color-border: var(--border);
+	--color-input: var(--input);
+	--color-ring: var(--ring);
+
+	--color-chart-1: var(--chart-1);
+	--color-chart-2: var(--chart-2);
+	--color-chart-3: var(--chart-3);
+	--color-chart-4: var(--chart-4);
+	--color-chart-5: var(--chart-5);
+
+	--color-sidebar: var(--sidebar);
+	--color-sidebar-foreground: var(--sidebar-foreground);
+	--color-sidebar-primary: var(--sidebar-primary);
+	--color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+	--color-sidebar-accent: var(--sidebar-accent);
+	--color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+	--color-sidebar-border: var(--sidebar-border);
+	--color-sidebar-ring: var(--sidebar-ring);
+}
+
+:root {
+	--background: #faf6ee;
+	--foreground: #1c2b22;
+	--card: rgb(255 255 255 / 0.86);
+	--card-foreground: #1c2b22;
+	--popover: rgb(255 255 255 / 0.96);
+	--popover-foreground: #1c2b22;
+	--primary: #d9761a;
+	--primary-foreground: #ffffff;
+	--secondary: rgb(240 233 218 / 0.92);
+	--secondary-foreground: #1c2b22;
+	--muted: rgb(240 233 218 / 0.6);
+	--muted-foreground: #5b6b5f;
+	--accent: rgb(79 122 58 / 0.14);
+	--accent-foreground: #1c2b22;
+	--destructive: #c2410c;
+	--destructive-foreground: #ffffff;
+	--border: rgb(28 43 34 / 0.1);
+	--input: rgb(255 255 255 / 0.8);
+	--ring: #4f7a3a;
+	--chart-1: #d9761a;
+	--chart-2: #4f7a3a;
+	--chart-3: #b54a1f;
+	--chart-4: #1f4d3a;
+	--chart-5: #8a7a5c;
+	--radius: 0.85rem;
+	--sidebar: rgb(255 255 255 / 0.8);
+	--sidebar-foreground: #1c2b22;
+	--sidebar-primary: #d9761a;
+	--sidebar-primary-foreground: #ffffff;
+	--sidebar-accent: rgb(79 122 58 / 0.12);
+	--sidebar-accent-foreground: #1c2b22;
+	--sidebar-border: rgb(28 43 34 / 0.1);
+	--sidebar-ring: #4f7a3a;
+}
+
+.dark {
+	--background: #0e1a14;
+	--foreground: #f3ead8;
+	--card: rgb(24 40 31 / 0.82);
+	--card-foreground: #f3ead8;
+	--popover: rgb(24 40 31 / 0.95);
+	--popover-foreground: #f3ead8;
+	--primary: #f0a03c;
+	--primary-foreground: #142019;
+	--secondary: rgb(31 77 58 / 0.6);
+	--secondary-foreground: #f3ead8;
+	--muted: rgb(14 26 20 / 0.5);
+	--muted-foreground: rgb(243 234 216 / 0.7);
+	--accent: rgb(240 160 60 / 0.16);
+	--accent-foreground: #f3ead8;
+	--destructive: #f97316;
+	--destructive-foreground: #142019;
+	--border: rgb(243 234 216 / 0.12);
+	--input: rgb(24 40 31 / 0.9);
+	--ring: #f0a03c;
+	--chart-1: #f0a03c;
+	--chart-2: #8cc26b;
+	--chart-3: #e2683a;
+	--chart-4: #f3ead8;
+	--chart-5: #6b8f7a;
+	--sidebar: rgb(14 26 20 / 0.9);
+	--sidebar-foreground: #f3ead8;
+	--sidebar-primary: #f0a03c;
+	--sidebar-primary-foreground: #142019;
+	--sidebar-accent: rgb(140 194 107 / 0.16);
+	--sidebar-accent-foreground: #f3ead8;
+	--sidebar-border: rgb(243 234 216 / 0.1);
+	--sidebar-ring: #8cc26b;
+}
+
+/**
+ * Savanna-at-dusk wash for game pages.
+ */
+@utility bg-wild {
+	background-color: #faf6ee;
+	background-image:
+		radial-gradient(
+			ellipse 120% 80% at 90% -10%,
+			rgb(232 137 28 / 0.28) 0%,
+			rgb(232 137 28 / 0) 60%
+		),
+		radial-gradient(
+			ellipse 110% 80% at 0% 10%,
+			rgb(79 122 58 / 0.22) 0%,
+			rgb(79 122 58 / 0) 62%
+		),
+		linear-gradient(180deg, #fffaf1 0%, #f6efe0 55%, #efe6d2 100%);
+	background-attachment: fixed;
+
+	@variant dark {
+		background-color: #0e1a14;
+		background-image:
+			radial-gradient(
+				ellipse 90% 60% at 88% 0%,
+				rgb(240 160 60 / 0.28) 0%,
+				transparent 60%
+			),
+			radial-gradient(
+				ellipse 80% 60% at 6% 12%,
+				rgb(79 122 58 / 0.45) 0%,
+				transparent 62%
+			),
+			linear-gradient(180deg, #18281f 0%, #0e1a14 50%, #08100c 100%);
+	}
+}
+
+@utility animate-card-in {
+	animation: card-in 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+@keyframes card-in {
+	from {
+		opacity: 0;
+		transform: translateY(0.75rem) scale(0.98);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0) scale(1);
+	}
+}
+
+@layer base {
+	* {
+		@apply border-border;
+	}
+
+	body {
+		@apply font-sans text-foreground antialiased;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-heading;
+	}
+}
